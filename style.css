@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+  background-image: url(images/Harrods-Chocolate-Hall-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 60px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: rgba(44, 8, 8, 0.909);
+}
+
+nav a:hover {
+  background-color: rgba(192, 116, 75, 0.233);
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
