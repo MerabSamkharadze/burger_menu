@@ -6,6 +6,10 @@ body {
   background-position: center;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.logo {
+  font-size: 35px;
+  font-family: monospace;
+}
 nav {
   background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
