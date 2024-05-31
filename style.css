@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  min-width: 350px;
 }
 nav {
   background-color: white;
@@ -61,9 +62,20 @@ nav li:first-child {
 .sideBar a {
   width: 100%;
 }
-
-@media (max-width: 950px) {
+.burger {
+  display: none;
+}
+@media (max-width: 900px) {
   .hide {
     display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sideBar {
+    width: 100%;
   }
 }
